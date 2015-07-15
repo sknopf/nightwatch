@@ -3,6 +3,7 @@ module.exports = {
   tags: ['google'],
   'Demo test Google' : function (client) {
     client
+      .pause(3000)
       .url('http://google.no')
       .pause(1000);
 
